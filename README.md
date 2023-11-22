@@ -80,6 +80,15 @@ há algum tempo, foi com esse super projeto que meti a mão na massa e finalizei
 que sempre dão apoio. Estou muito feliz e realizado com meu desempenho na programação e sei que se eu não desistir, vou chegar a onde desejo."
 
 ------------------------------------------------------------------------------------------------------------------------
+## tecnologias:
+
+- Python
+
+- Html
+
+- Css
+
+---------------------------------------------------------
 ### Contatos:
 
 - Instagram: @enriquedesu
