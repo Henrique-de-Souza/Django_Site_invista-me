@@ -19,13 +19,13 @@
             <td>{{dado.id}}</td>
             <td>{{dado.investimento}}</td>
             <td>{{dado.valor}}</td>
-            <td><button class='btn btn-info'><a style='color:white;' 
+            <td><button class='btn btn-info'><a style='color:rgb(14, 14, 14);' 
                 href="{% url 'detalhe' dado.id %}">Detalhe</a></button>
             
             </td>    
-            <td><button class='btn btn-warning'><a style='color:white;' 
+            <td><button class='btn btn-warning'><a style='color:rgb(14, 14, 14);' 
                 href="{% url 'editar' dado.id %}">Editar</a></button></td>
-            <td><button class='btn btn-danger'><a style='color:white;' 
+            <td><button class='btn btn-danger'><a style='color: rgb(14, 14, 14);'
                 href="{% url 'excluir' dado.id %}">Excluir</a></button></td>
         </tr>
         {% endfor %}

@@ -1,13 +1,14 @@
 {% extends 'investimentos/base.html' %}
 
 {% block conteudo %}
-<div class="container d-flex align-items-center justify-content-center" style="height: 100vh;"> <!-- Adicionando as classes 'd-flex', 'align-items-center' e 'justify-content-center' -->
+<div class="container d-flex  justify-content-center" style="height: 100vh;">
     <div>
         <form method="POST">
             {% csrf_token %}
-            <h1>Confirmar exclusão do item: {{item.investimento}}</h1>
-            <button class="btn btn-info"><a style="color: white;" href="{% url 'investimentos' %}">Cancelar</a></button>
-            <button class="btn btn-danger" type="submit">Confirmar</button>
+            <h1 class="text-center">Confirmar exclusão do item: {{item.investimento}}</h1>
+                <button class="btn btn-info"><a style="color: white;" href="{% url 'investimentos' %}">Cancelar</a></button>
+                <button class="btn btn-danger" type="submit">Confirmar</button>
+            </div>
         </form>
     </div>
 </div>

@@ -1,32 +1,32 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br" data-bs-theme="dark">
+
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Invista-me!</title>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="{% url 'investimentos' %}">INVISTA-ME!</a>
+    <nav class="navbar navbar-dark bg-dark"> 
+        <a class="navbar-brand bg-dark text-white rounded-pill p-3" href="{% url 'investimentos' %}" style="margin-left: 30px; padding: 10px;">INVISTA-ME!</a>
         <ul style="list-style: none;">
           {% if user.is_authenticated %}
-          <li style="float: left;">
-            <strong class="nav-item nav-link">Bem-vindo {{user.get_username }}</strong>
+            <li style="float: left;">
+            <strong class="nav-item nav-link" style="margin-right: 20px;">Bem-vindo {{user.get_username }}</strong>
           </li>
           <li style="float: left;">
-            <a class="nav-item nav-link" href="{% url 'logout' %}">Sair</a>
+            <a class="nav-item nav-link" style="margin-right: 20px;" href="{% url 'logout' %}">Sair</a>
           </li>
           {% else %}
           <li style="float: left;">
-            <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
+            <a class="nav-item nav-link" href="{% url 'login' %}" style="padding: 10px;">Login</a>
           </li>
           <li style="float: left;">
-            <a class="nav-item nav-link" href="{% url 'novo_usuario' %}">Fazer cadastro</a>
+            <a class="nav-item nav-link" href="{% url 'novo_usuario' %}" style="padding: 10px;">Fazer cadastro</a>
           </li>
           {% endif %}
         </ul>
