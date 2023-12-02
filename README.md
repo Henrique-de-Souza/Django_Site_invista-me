@@ -73,6 +73,15 @@ sendo que, ma vez preenchido este formulário, os dados serão exibidos na pagin
 
 ----------------------------------------------------------------------------------------------------------------------
 
+# Gosrtaria também de apresentar a versão em dark-mode:
+
+![image](https://github.com/Henrique-de-Souza/invista-me/assets/148600312/892f155f-59e8-4994-9aba-3a6296046250) ![image](https://github.com/Henrique-de-Souza/invista-me/assets/148600312/0a3f10e7-08b9-4bdb-802c-ec55c3045243)  ![image](https://github.com/Henrique-de-Souza/invista-me/assets/148600312/3cf1fe08-3f94-4aa0-822a-850ab58b1191)
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+
 # Conclusões finais:
 
 " Me diverti muito realizando esse projeto, foi a minha primeira experiência com o Django, embora já venha estudando-o
